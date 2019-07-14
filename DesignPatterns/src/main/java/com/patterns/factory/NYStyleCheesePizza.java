@@ -8,6 +8,5 @@ public class NYStyleCheesePizza extends Pizza {
 		sauce = "Marinara Sauce";
 		toppings.add("Grated Reggiano Cheese");
 	}
-
 	
 }
