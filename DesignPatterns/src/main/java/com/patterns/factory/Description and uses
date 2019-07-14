@@ -1,0 +1,14 @@
+Factory Pattern
+
+Define una interfaz para crear un objeto, pero deja a las subclases decidir qué clase instanciar. 
+
+En refactorización:
+
+1.	Encapsulate Classes With Factory
+	Usar cuando:	Cuando los clientes instancian directamente clases que residen en un paquete e implementan una interfaz común.
+	Cómo:			Hacer los constructores no públicos y dejar que los clientes creen las instancias a través de un factory.
+	
+2.	Introduce Polymorphic Creation With Factory Method (Duplicate code)
+	Usar cuando:	Clases de una jerarquía implementan un método similar, excepto por un paso en el que se crea un objeto.
+	Cómo: 			Se crea una superclase para ese método que llama a un método Factory para llevar a cabo la instanciación.
+	
