@@ -1,0 +1,12 @@
+Factory Pattern
+
+Permite definir una familia de algoritmos y hacerlos intercambiables los unos con los otros.
+De esta manera, permite escoger uno dinámicamente.
+
+En refactorización:
+
+1.	Replace conditional logic with Strategy
+	Usar cuando:	La lógica condicional de un método controla cuál de las variantes de un cálculo u operación es ejecutada.
+	Cómo:			Se crea un Strategy para cada variante y se hace que el método delegue el cálculo a una instancia de Strategy.
+	
+	

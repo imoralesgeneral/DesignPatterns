@@ -12,3 +12,7 @@ En refactorización:
 	Usar cuando:	Clases de una jerarquía implementan un método similar, excepto por un paso en el que se crea un objeto.
 	Cómo: 			Se crea una superclase para ese método que llama a un método Factory para llevar a cabo la instanciación.
 	
+3.	Move creation knowledge to Factory
+	Usar cuando:	Los datos y el código utilizado para crear una instancia de una clase están distribuidas en numerosas clases.
+	Cómo: 			Mover todo el conocimiento de la creación a un Factory.
+	
