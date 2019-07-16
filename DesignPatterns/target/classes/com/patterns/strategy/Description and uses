@@ -1,4 +1,4 @@
-Factory Pattern
+Strategy Pattern
 
 Permite definir una familia de algoritmos y hacerlos intercambiables los unos con los otros.
 De esta manera, permite escoger uno dinámicamente.

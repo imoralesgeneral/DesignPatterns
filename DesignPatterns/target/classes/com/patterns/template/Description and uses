@@ -1,0 +1,13 @@
+Template Pattern
+
+Permite definir el esqueleto de un algoritmo en un método, dejando la implementación de ciertos pasos a sus clases hijas.
+De esta manera, se pueden redefinir ciertas partes de un algoritmo sin cambiar su estructura ni repetir ciertas partes.
+
+En refactorización:
+
+1.	Form Template Method (Duplicate code)
+	Usar cuando:	Dos métodos en dos subclases desarrollan pasos similares en el mismo orden, aunque los pasos sean diferentes.
+	Cómo:			Generalizar los métodos extrayendo sus pasos dentro de métodos con idénticas signatures y después se suben los 
+					métodos generalizados a un Template Method.
+	
+	
