@@ -1,0 +1,21 @@
+Composite Pattern
+
+El patrón Composite sirve para construir objetos complejos a partir de otros más simples y similares entre sí, 
+gracias a la composición recursiva y a una estructura en forma de árbol.
+Esto simplifica el tratamiento de los objetos creados, ya que al poseer todos ellos una interfaz común, se tratan todos de la misma manera.
+
+
+En refactorización:
+
+1.	Replace Implicit Tree With Composite
+	Usar cuando:	Se ha formado implícitamente una estructura de árbol usando primitivos o Strings.
+	Cómo:			Reemplazando la representación primitiva con Composite.
+	
+2.	Extract Composite (Duplicate code)
+	Usar cuando:	Subclases de una jerarquia implementan el mismo Composite.
+	Cómo: 			Se extrae una superclase que implemente el Composite.
+	
+3.	Replace One/Many Distinctions With Composite (Duplicate code)
+	Usar cuando:	Una clase procesa objetos simples y compuestos usando piezas de código separadas.
+	Cómo: 			Usar un Composite para producir una pieza de código capaz de manejar objetos simples y compuestos.
+	
