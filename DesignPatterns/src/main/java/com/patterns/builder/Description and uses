@@ -1,0 +1,12 @@
+Builder Pattern
+
+El patrón Builder sirve para construir objetos complejos a partir de una variedad de partes que contribuyen individualmente a la creación 
+y ensamblación del objeto mencionado.
+
+
+En refactorización:
+
+1.	Encapsulate Composite With Builder
+	Usar cuando:	Construir un Composite es repetitivo, complicado y propenso a errores.
+	Cómo:			Simplificar la construcción dejando los detalles a un Builder.
+	

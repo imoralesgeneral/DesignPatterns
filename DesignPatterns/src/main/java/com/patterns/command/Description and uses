@@ -1,0 +1,13 @@
+Command Pattern
+
+El patrón Command encapsula un mensaje como un objeto. Especifica una forma simple de separar la ejecución de un comando, del 
+entorno que generó dcho comando. Permite solicitar una operación a un objeto sin conocer el contenido ni el receptor real de la misma.
+
+
+En refactorización:
+
+1.	Replace Conditional Dispatcher With Command
+	Usar cuando:	Se utiliza lógica condicional para tratar solicitudes y ejecutar acciones.
+	Cómo:			Crear un Command para cada acción. Almacenar los Commands en una colección y reemplazar la logica condicional
+					con código para buscar y ejecutar los Commands.
+	
