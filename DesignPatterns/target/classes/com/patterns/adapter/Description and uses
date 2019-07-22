@@ -1,8 +1,11 @@
-Abstract Factory Pattern
+Adapter Pattern
 
-Provee una interfaz para crear una familia de objetos relacionados o dependientes sin especificar las clases concretas.
+Se utiliza para transformar una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella 
+a través de la segunda. 
 
 
-El patrón Abstract Factory está aconsejado cuando se prevé la inclusión de nuevas familias de productos, pero puede 
-resultar contraproducente cuando se añaden nuevos productos o cambian los existentes, puesto que afectaría a todas 
-las familias creadas. 
+En refactorización:
+
+1.	Extract Adapter
+	Usar cuando:	Una clase adapta múltiples versiones de un componente, librería, API u otra entidad.
+	Cómo:			Extraer un Adapter para una sola versión del componente, API, ...
