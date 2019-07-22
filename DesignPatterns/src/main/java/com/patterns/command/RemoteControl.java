@@ -56,10 +56,10 @@ public class RemoteControl {
 		StringBuilder sb = new StringBuilder("");
 		sb.append("------ Remote Control ------\n");
 		for(int i=0; i<7; i++) {
-			sb.append("[Slot "+i+"] "+onCommands[i].getClass().getSimpleName()+"   "+offCommands[i].getClass().getSimpleName()+"\n");
+			sb.append("[Slot "+i+"] "+onCommands[i].getClass().getSimpleName()+"\t\t\t\t"+offCommands[i].getClass().getSimpleName()+"\n");
 		}
 		sb.append("[undo] "+undoCommand.getClass().getSimpleName()+"\n");
-		sb.append("[ON]                       [OFF]");
+		sb.append("[ON]\t\t\t\t\t\t[OFF]");
 		return sb.toString();
 	}
 	

@@ -1,0 +1,8 @@
+Abstract Factory Pattern
+
+Provee una interfaz para crear una familia de objetos relacionados o dependientes sin especificar las clases concretas.
+
+
+El patrón Abstract Factory está aconsejado cuando se prevé la inclusión de nuevas familias de productos, pero puede 
+resultar contraproducente cuando se añaden nuevos productos o cambian los existentes, puesto que afectaría a todas 
+las familias creadas. 
