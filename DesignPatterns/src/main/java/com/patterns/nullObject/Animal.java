@@ -1,4 +1,4 @@
-package com.pattern.nullObject;
+package com.patterns.nullObject;
 
 public interface Animal {
 

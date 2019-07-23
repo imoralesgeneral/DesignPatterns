@@ -1,17 +1,17 @@
-package com.pattern.nullObject;
+package com.patterns.nullObject;
 
-public class Dog implements Animal {
+public class NullAnimal implements Animal {
 	
-	String name = "I am a dog!";
+	private String name;
 
 	@Override
 	public boolean isNull() {
-		return false;
+		return true;
 	}
 
 	@Override
 	public void makeSound() {
-		System.out.println("woof!");
+
 	}
 
 	@Override
