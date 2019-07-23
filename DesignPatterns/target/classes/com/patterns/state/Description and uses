@@ -1,0 +1,15 @@
+Factory Pattern
+
+Permite que un objeto modifique su comportamiento cada vez que cambie su estado interno.
+
+Debe utilizarse cuando:
+
+· El comportamiento de un objeto depende de un estado y debe cambiar en tiempo de ejecución.
+· Cuando las operaciones tienen largas sentencias con múltiples ramas que dependen del estado del objeto. 
+
+En refactorización:
+
+1.	Replace State-Altering Conditionals With State
+	Usar cuando:	Las expresiones condicionales que controlan las transiciones de los estados de un objeto son complejas.
+	Cómo:			Se reemplazan los condicionales con clases State que manejan estados específicos y transiciones entre ellos.
+	

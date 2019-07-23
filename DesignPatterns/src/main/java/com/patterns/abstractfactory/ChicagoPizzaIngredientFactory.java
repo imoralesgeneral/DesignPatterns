@@ -1,6 +1,5 @@
 package com.patterns.abstractfactory;
 import com.patterns.abstractfactory.Ingredient;
-import com.patterns.abstractfactory.MarinaraSauce;
 import com.patterns.abstractfactory.PizzaIngredientFactory;
 import com.patterns.abstractfactory.Sauce;
 
