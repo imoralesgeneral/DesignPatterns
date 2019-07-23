@@ -1,0 +1,9 @@
+Null Object Pattern
+
+Se utiliza para evitar NullPointer exceptions, la comparación == null y tratar la falta de comportamiento en estos casos.
+
+En refactorización:
+
+1.	Introduce Null Object
+	Usar cuando:	La lógica para tratar con un campo o variable null que está duplicada a través del código.
+	Cómo:			Reemplazar la lógica del null con un Null Object, un objeto que provea un comportamiento null adecuado.
