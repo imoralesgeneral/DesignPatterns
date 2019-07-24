@@ -15,11 +15,10 @@ public class Traveller implements Observer {
 	public void update(Flight flight) {
 		System.out.println(name+" - Message received: "+flight.toString());
 		if(flight.getDestiny().equals(this.flight.getDestiny())) {
-			if(flight.getLastInfo().contains("5 min")) {
-				System.out.println(name+" - Running...");
-			}
 			if(flight.getLastInfo().contains("15 min")) {
 				System.out.println(name+" - Walking...");
+			} else if(flight.getLastInfo().contains("5 min")) {
+				System.out.println(name+" - Running...");
 			} else {
 				System.out.println(name+" - Sleeping...");
 			}
