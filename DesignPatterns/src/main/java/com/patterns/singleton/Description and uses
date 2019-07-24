@@ -1,0 +1,14 @@
+Singleton Pattern
+
+Se utiliza para asegurar que una clase tiene solo una instancia y se le provee un punto de acceso global.
+
+En refactorización:
+
+1.	Inline Singleton (Quitar el singleton)
+	Usar cuando:	El código necesita acceder a un objeto pero no necesita un punto de acceso global a él.
+	Cómo:			Mover las características del singleton a una clase que almacene y provea acceso a un objeto. Eliminar el singleton.
+	
+2.	Limit Instantiation With Singleton
+	Usar cuando:	El código crea múltiples instancias de un objeto y eso usa demasiada memoria o ralentiza el rendimiento.
+	Cómo:			Reemplazar las múltiples instancias con un singleton.
+	
