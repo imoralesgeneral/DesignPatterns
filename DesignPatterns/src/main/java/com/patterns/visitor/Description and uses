@@ -1,0 +1,15 @@
+Visitor Pattern
+
+Busca separar un algoritmo de la estructura de un objeto. La operación se implementa de forma que no se modifique el código 
+de las clases sobre las que opera.
+Si un objeto es el responsable de mantener un cierto tipo de información, entonces es lógico asignarle también la responsabilidad 
+de realizar todas las operaciones necesarias sobre esa información. La operación se define en cada una de las clases que 
+representan los posibles tipos sobre los que se aplica dicha operación
+
+En refactorización:
+
+1.	Move Acumulation To Visitor
+	Usar cuando:	Un método acumula información desde clases heterogéneas.
+	Cómo:			Mover la tarea de acumulación a un Visitor que pueda visitar cada clase para acumular la información.
+	
+	
