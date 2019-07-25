@@ -1,0 +1,14 @@
+Decorator Pattern
+
+El patrón Decorator sirve para añadir funcionalidades a una clase de forma dinámica, evitando las jerarquías de clases 
+que se tienen construir en tiempo de compilación. 
+Ventajas: podemos añadir responsabilidades a un objeto de forma progresiva y dinámica. Más flexibilidad que con la herencia.
+
+
+En refactorización:
+
+1.	Move Embellishment To Decorator
+	Usar cuando:	El código provee un embellecimiento a la responsabilidad principal de la clase.
+	Cómo:			Mover el código embellecedor a un Decorator.
+	
+	
