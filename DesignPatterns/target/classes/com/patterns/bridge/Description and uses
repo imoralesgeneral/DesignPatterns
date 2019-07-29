@@ -1,0 +1,12 @@
+Bridge Pattern
+
+Desacopla una abstracción de su implementación, de manera que ambas puedan variar de forma independiente.
+
+
+Este patrón debe ser utilizado cuando:
+
+    Se desea evitar un enlace permanente entre la abstracción y su implementación. Esto puede ser debido a que la 
+    implementación debe ser seleccionada o cambiada en tiempo de ejecución.
+    
+    Tanto las abstracciones como sus implementaciones deben ser extensibles por medio de subclases. En este caso, 
+    el patrón Bridge permite combinar abstracciones e implementaciones diferentes y extenderlas independientemente.
