@@ -1,0 +1,16 @@
+FlyWeight Pattern
+
+Nuestro sistema tiene un tipo de componente que se repite numerosas veces, y las instancias tienen una serie 
+de características en común. Queremos optimizar el tamaño en memoria que ocupa para sacar el máximo partido al 
+sistema y no desaprovechar los recursos con datos redundantes.
+
+Se aplica cuando:
+
+    Se necesita eliminar o reducir la redundancia cuando se tiene gran cantidad de objetos que comparten bastante información.
+    Nuestro soporte tiene memoria limitada y esta necesita ser aprovechada óptimamente.
+    La identidad propia de los objetos es irrelevante.
+
+
+El patrón Flyweight combina un Singleton con una Factoría para lograr proporcionar un punto de acceso único a la clase desde 
+el cual se puedan reutilizar los elementos no redundantes
+	
