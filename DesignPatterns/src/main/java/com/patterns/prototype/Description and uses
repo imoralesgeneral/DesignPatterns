@@ -1,0 +1,10 @@
+Prototype Pattern
+
+Permite crear objetos prediseñados sin conocer detalles de cómo crearlos. Esto lo logra especificando los prototipos de 
+objetos a crear. Los nuevos objetos que se crearán de los prototipos, en realidad, son clonados.
+
+Cuando utilizar este patrón.
+
+Aplica en un escenario donde sea necesario la creación de objetos parametrizados como "recién salidos de fábrica" ya listos 
+para utilizarse, con la gran ventaja de la mejora de la performance: clonar objetos es más rápido que crearlos y luego setear 
+cada valor en particular.
