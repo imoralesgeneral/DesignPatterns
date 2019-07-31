@@ -1,0 +1,13 @@
+Memento Pattern
+
+Este patrón de diseño permite capturar y exportar el estado interno de un objeto para que luego se pueda restaurar, 
+sin romper la encapsulación.
+Su finalidad es almacenar el estado de un objeto (o del sistema completo) en un momento dado, de manera que se pueda 
+restaurar posteriormente si fuese necesario. 
+
+Se usa cuando:
+
+    Se necesite restaurar el sistema desde estados pasados.
+    Se quiera facilitar el hacer y deshacer de determinadas operaciones, para lo que habrá que guardar los estados 
+    anteriores de los objetos sobre los que se opere (o bien recordar los cambios de forma incremental).
+
