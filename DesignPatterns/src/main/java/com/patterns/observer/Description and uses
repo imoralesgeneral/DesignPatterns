@@ -1,11 +1,11 @@
 Observer Pattern
 
 Permite reaccionar a ciertas clases llamadas observadores sobre un evento determinado.
-Es usado en programación para monitorear el estado de un objeto
+Es usado en programaciÃ³n para monitorizar el estado de un objeto
 
-En refactorización:
+En refactorizaciÃ³n:
 
 1.	Replace Hard-Coded Notifications With Observer
 	Usar cuando:	Subclases son codificadas para notificar una sola instancia de otra clase.
-	Cómo:			Eliminar las subclases haciendo a su superclase capaz de notificar una o más instancias de cualquier clase
+	CÃ³mo:			Eliminar las subclases haciendo a su superclase capaz de notificar una o mÃ¡s instancias de cualquier clase
 					que implemente una interfaz Observer.
